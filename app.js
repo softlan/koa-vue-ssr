@@ -119,7 +119,6 @@ router.get('*', async (ctx, next) => {
 
 app.use(router.routes());
 
-
 const PORT = process.env.PORT || 3000
 const HOST = process.env.HOST || 'localhost'
 
